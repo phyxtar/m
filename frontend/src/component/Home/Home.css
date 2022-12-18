@@ -168,6 +168,12 @@
     .productCard > p {
       font-size: 1.7vmax;
     }
+    .banner-text-big {
+      font-size: 20px;
+      margin-top: -30px;
+      font-weight: 700;
+      color: yellow;
+  }
   
     .productCard > div {
       margin: 0vmax;

@@ -41,7 +41,7 @@ const Footer = () => {
               <a href='https://www.facebook.com/profile.php?id=100085530316914'>
                 Facebook
               </a>
-              <a href=''>Become A Merchant</a>
+              <a href='!#'>Become A Merchant</a>
             </div>
           </div>
         </div>

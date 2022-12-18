@@ -155,7 +155,7 @@ const Home = () => {
                 Store Available!!
               </div>
               <div className='banner-text-normal'>
-                don't miss our weekend specials. <a href='#'>Grab offer now</a>
+                don't miss our weekend specials. <a href='!#'>Grab offer now</a>
               </div>
             </div>
           </div>

@@ -63,7 +63,7 @@ const ProductReviews = () => {
       navigate('/admin/reviews');
       dispatch({ type: DELETE_REVIEW_RESET });
     }
-  }, [dispatch, alert, error, deleteError, isDeleted, productId]);
+  }, [dispatch, alert, error, deleteError, isDeleted, productId, navigate]);
 
   const columns = [
     { field: 'id', headerName: 'Review ID', minWidth: 200, flex: 0.5 },

@@ -98,7 +98,7 @@ const ProductDetails = () => {
       dispatch({ type: NEW_REVIEW_SUCCESS });
     }
     dispatch(getProductDetails(id));
-  }, [dispatch, error, reviewError, alert, success]);
+  }, [dispatch, error, reviewError, alert, success, id]);
 
   return (
     <Fragment>

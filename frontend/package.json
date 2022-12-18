@@ -3,10 +3,9 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-   
     "@material-ui/icons": "^4.11.3",
     "@mui/material": "^5.11.0",
     "@mui/styled-engine-sc": "^5.11.0",

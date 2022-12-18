@@ -61,7 +61,7 @@ const UpdateUser = () => {
       navigate('/admin/users');
       dispatch({ type: UPDATE_USER_RESET });
     }
-  }, [dispatch, alert, error, isUpdated, updateError, user, userId]);
+  }, [dispatch, alert, error, isUpdated, updateError, user, userId, navigate]);
 
   const updateUserSubmitHandler = (e) => {
     e.preventDefault();

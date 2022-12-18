@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import Button from '@mui/material/Button';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 const Contact = () => {
   return (
@@ -13,6 +13,7 @@ const Contact = () => {
         <Row>
           <Col md={6}>
             <iframe
+              title='Bazaar-map'
               className='map-iframe'
               src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117698.66911470062!2d86.06299265708725!3d22.79937301815665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e56c1a362441%3A0x6c0f14064bbb64e7!2sBazaar.com!5e0!3m2!1sen!2sin!4v1668682639947!5m2!1sen!2sin'
               width='600'

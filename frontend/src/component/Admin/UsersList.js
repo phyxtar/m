@@ -51,7 +51,7 @@ const UsersList = () => {
     }
 
     dispatch(getAllUsers());
-  }, [dispatch, alert, error, deleteError, isDeleted, message]);
+  }, [dispatch, alert, error, deleteError, isDeleted, message, navigate]);
 
   const columns = [
     { field: 'id', headerName: 'User ID', minWidth: 180, flex: 0.8 },
