@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './component/layout/Header/Header.js';
 import Footer from './component/layout/Footer/Footer.js';
+import LowerNav from './component/layout/Footer/LowerNav.js';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -174,6 +175,7 @@ function App() {
       </Routes>
 
       <Footer />
+      <LowerNav />
     </Router>
   );
 }

@@ -79,6 +79,7 @@ const UserOptions = ({ user }) => {
           />
         }
       >
+        <h6>{user.name}</h6>
         {options.map((item) => (
           <SpeedDialAction
             key={item.name}

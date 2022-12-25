@@ -2,16 +2,12 @@ import React from 'react';
 import './aboutSection.css';
 import director from '../../../images/director.png';
 // import { Button, Typography, Avatar } from '@material-ui/core';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 const About = () => {
-  const visitInstagram = () => {
-    // window.location = 'https://instagram.com/meabhisingh';
-  };
   return (
     <div className='aboutSection'>
       <div></div>
@@ -27,9 +23,7 @@ const About = () => {
               alt=''
             />
             <Typography component='h4'>Director’s Pen</Typography>
-            <Button onClick={visitInstagram} color='primary'>
-              Visit Instagram
-            </Button>
+
             <span>
               <span className='ft-bold'> Mr. Rahul Pathak</span> is The Director
               of Bazaar.com, A Brand of Ra Ba Super Mart Pvt Ltd. Widely
@@ -70,10 +64,7 @@ const About = () => {
               है।"
             </p>
             <Typography component='h2'>Our Brands</Typography>
-            <a
-              href='https://www.youtube.com/@user-pn6oc3yd7z/featured'
-              target='blank'
-            >
+            <a href='https://www.youtube.com/@bazaarcom' target='blank'>
               <YouTubeIcon className='youtubeSvgIcon' />
             </a>
 

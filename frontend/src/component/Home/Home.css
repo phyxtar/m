@@ -16,17 +16,14 @@
 
 
 .banner > h1 {
-  margin: 3vmax;
-    font: 600 3.5vmax "Roboto";
-    letter-spacing: 5px;
-    /* margin: 5vmax;
-  
-    font: 600 2.5vmax "Roboto"; */
+  /* margin-bootom: 20px; */
+  /* margin: 3vmax; */
+  font: 600 3.5vmax "Roboto";
+  letter-spacing: 5px;
+  margin-bottom: 200px;
   }
   
-  .banner > p {
-    font: 300 1.4vmax "Lucida Sans";
-  }
+
 
   .banner > a > button {
     margin-bottom: 5vmax;
@@ -57,14 +54,15 @@
   }
 
   .homeHeading {
+    font-weight: bold;
     text-align: center;
     font-family: Roboto;
     font-size: 1.4vmax;
-    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    border-bottom: 1px solid rgb(101 61 185);
     width: 20vmax;
     padding: 1vmax;
     margin: 5vmax auto;
-    color: rgb(0, 0, 0, 0.7);
+    color: rgb(101 61 185);
   }
 
   .container {
@@ -128,43 +126,26 @@
     text-align: center;
     font-family: Roboto;
     font-size: 1.4vmax;
-    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    border-bottom: 1px solid rgb(101 61 185);
     width: 20vmax;
     padding: 1vmax;
     margin: 5vmax auto;
-    color: rgb(0, 0, 0, 0.7); 
+    color: rgb(101 61 185);
   }
   .product-div img {
     border-radius: 26px;
     width: fit-content;
 }
 
-.scroll-image{
-  background-image: url(https://res.cloudinary.com/dls5gtxhw/image/upload/v1670866188/my%20images/banner_wytq0b.jpg);
-  height: 374px;
-    width: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:contain;
-    position: relative;
-    text-align: center;
-    padding: 64px;
-    margin-top: 52px;
 
-}
-.banner-text-big {
-  font-size: 45px;
-  font-weight: 700;
-  color: yellow;
-}
-.banner-text-normal {
-  font-size: 25px;
-  font-weight: 500;
-  color: #F9BA1D;
-}
 
   @media screen and (max-width: 600px) {
+    .banner > h1 {
+      /* margin-bootom: 20px; */
+      /* margin: 3vmax; */
+      
+      margin-bottom: 140px;
+      }
     .productCard > p {
       font-size: 1.7vmax;
     }
@@ -188,6 +169,7 @@
       margin: 0 0.5vmax;
       font: 300 1vmax "Roboto";
     }
+    
   }
   
   

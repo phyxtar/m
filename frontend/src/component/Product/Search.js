@@ -18,11 +18,11 @@ const Search = () => {
 
   return (
     <Fragment>
-      <MetaData title='Search A Product - m-bazaar.com' />
+      {/* <MetaData title='Search A Product - m-bazaar.com' /> */}
       <form className='searchBox' onSubmit={searchSubmitHandler}>
         <input
           type='text'
-          placeholder='Search a Product ...'
+          placeholder='Search Products & Brands ...'
           onChange={(e) => setKeyword(e.target.value)}
         />
         <input type='submit' value='Search' />

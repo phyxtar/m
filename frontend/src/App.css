@@ -55,4 +55,14 @@ input[type='number'] {
 .redColor{
   color: red;
 }
+.MuiBox-root.css-gf3blb{
+  visibility: hidden;
+}
 
+
+@media screen and (max-width: 600px) {
+
+  .MuiBox-root.css-gf3blb{
+    visibility: visible;
+  }
+}
