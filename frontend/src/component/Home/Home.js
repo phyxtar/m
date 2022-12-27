@@ -8,6 +8,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import Loader from '../layout/Loader/Loader';
 import { useAlert } from 'react-alert';
 import Search from '../Product/Search';
+import TopShop from './TopShop';
+import Festive from './Festive';
+import Discount from './Discount';
+import Promote from './Promote';
+import ReelsBazaar from './ReelsBazaar';
 
 const Home = () => {
   const alert = useAlert();
@@ -45,8 +50,32 @@ const Home = () => {
               </button>
             </a> */}
           </div>
+          <div>
+            <h2 className='homeHeading'>Top Shops By Bazaar.com</h2>
+            <TopShop />
+          </div>
 
-          <h2 className='homeHeading'>Featured Product</h2>
+          <div>
+            <h2 className='homeHeading'>Reels by Bazaar.com</h2>
+            <ReelsBazaar />
+          </div>
+
+          <div>
+            <h2 className='homeHeading'>Festival / Heavy Discount</h2>
+            <Festive />
+          </div>
+
+          <div>
+            <h2 className='homeHeading'>Promote By Bazaar.com</h2>
+            <Promote />
+          </div>
+
+          <div>
+            <h2 className='homeHeading'>50% or more Discount</h2>
+            <Discount />
+          </div>
+
+          <h2 className='homeHeading2'>Featured Products By Bazaar.com</h2>
 
           <div className='container' id='products'>
             {products &&

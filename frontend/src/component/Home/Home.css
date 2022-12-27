@@ -53,16 +53,27 @@
     max-width: 100%;
   }
 
-  .homeHeading {
+  .homeHeading2 {
     font-weight: bold;
     text-align: center;
     font-family: Roboto;
     font-size: 1.4vmax;
     border-bottom: 1px solid rgb(101 61 185);
-    width: 20vmax;
+    width: 25vmax;
     padding: 1vmax;
     margin: 5vmax auto;
     color: rgb(101 61 185);
+  }
+
+  .homeHeading {
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 1.3vmax;
+    text-transform: uppercase;
+    
+    padding: 1vmax;
+    margin: 2vmax;
+    color: rgb(57, 54, 61);
   }
 
   .container {
