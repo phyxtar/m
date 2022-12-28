@@ -13,6 +13,7 @@ import Festive from './Festive';
 import Discount from './Discount';
 import Promote from './Promote';
 import ReelsBazaar from './ReelsBazaar';
+import Category from './Category';
 
 const Home = () => {
   const alert = useAlert();
@@ -42,14 +43,11 @@ const Home = () => {
             </h1>
 
             <Search />
-
-            {/* <a href='#products'>
-              <button>
-                Scroll
-                <CgMouse />
-              </button>
-            </a> */}
           </div>
+          <div className='container-fluid'>
+            <Category />
+          </div>
+
           <div>
             <h2 className='homeHeading'>Top Shops By Bazaar.com</h2>
             <TopShop />

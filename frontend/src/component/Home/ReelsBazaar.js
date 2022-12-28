@@ -27,24 +27,30 @@ const ReelsBazaar = () => {
   ];
 
   return (
-    <Carousel className='reelcra'>
-      {videoProperties.map((videoObj) => {
-        return (
-          <Carousel.Item key={videoObj.id}>
-            <ReactPlayer
-              url={videoObj.src}
-              pip={true}
-              controls={true}
-              playing={true}
-            />
-            <Carousel.Caption>
-              <h3>{videoObj.title}</h3>
-              <p>{videoObj.credit}</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        );
-      })}
-    </Carousel>
+    <div className='container'>
+      <div className='row'>
+        <div className='col'>
+          <Carousel className='reelcra'>
+            {videoProperties.map((videoObj) => {
+              return (
+                <Carousel.Item key={videoObj.id}>
+                  <ReactPlayer
+                    url={videoObj.src}
+                    pip={true}
+                    controls={true}
+                    playing={true}
+                  />
+                  <Carousel.Caption>
+                    <h3>{videoObj.title}</h3>
+                    <p>{videoObj.credit}</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              );
+            })}
+          </Carousel>
+        </div>
+      </div>
+    </div>
   );
 };
 

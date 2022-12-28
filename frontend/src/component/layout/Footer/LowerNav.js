@@ -28,7 +28,12 @@ export default function SimpleBottomNavigation() {
             label='Home'
             icon={<HomeIcon />}
           />
-          <BottomNavigationAction label='Categories' icon={<CategoryIcon />} />
+          <BottomNavigationAction
+            component={Link}
+            to='/listcategory'
+            label='Categories'
+            icon={<CategoryIcon />}
+          />
           <BottomNavigationAction
             component={Link}
             to='/account'
@@ -41,7 +46,11 @@ export default function SimpleBottomNavigation() {
             label='Orders'
             icon={<InventoryIcon />}
           />
-          <BottomNavigationAction label='Help' icon={<LocalLibraryIcon />} />
+          <BottomNavigationAction
+            href='tel:18003094131'
+            label='Help'
+            icon={<LocalLibraryIcon />}
+          />
         </BottomNavigation>
       </Box>
     </div>

@@ -12,13 +12,20 @@ import { useAlert } from 'react-alert';
 import MetaData from '../layout/MetaData';
 
 const categories = [
-  'Laptop',
-  'Footwear',
-  'Bottom',
-  'Tops',
-  'Attire',
-  'Camera',
-  'SmartPhones',
+  'Deals and Savings',
+  'Mobile & Electronic Devices',
+  'Fashion & Beauty',
+  'Groceries & Pet Supplies',
+  'Health & Personal Care',
+  'Home, Furniture & Appliances',
+  'Music, Video and Gaming',
+  'FunZone & Inspiration',
+  'Books and Education',
+  'Toys, Children and baby',
+  'Automobile',
+  'Office & Professional',
+  'Sports, Outdoor & Travel',
+  'Gifting',
 ];
 
 const Products = ({ match }) => {

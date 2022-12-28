@@ -1,4 +1,6 @@
 import './App.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Header from './component/layout/Header/Header.js';
 import Footer from './component/layout/Footer/Footer.js';
 import LowerNav from './component/layout/Footer/LowerNav.js';
@@ -42,6 +44,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import Contact from './component/layout/Contact/Contact.js';
 import About from './component/layout/About/About';
 import NotFound from './component/layout/Not Found/NotFound';
+import ListCategory from './component/Home/ListCategory';
 
 function App() {
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -92,6 +95,7 @@ function App() {
         <Route path='/password/forgot' element={<ForgotPassword />} exact />
         <Route path='/contact' element={<Contact />} exact />
         <Route path='/about' element={<About />} exact />
+        <Route path='/listcategory' element={<ListCategory />} exact />
         <Route
           element={
             window.location.pathname === '/process/payment' ? null : NotFound

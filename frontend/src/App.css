@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   scroll-behavior: smooth;
@@ -58,12 +59,31 @@ input[type='number'] {
 .MuiBox-root.css-gf3blb{
   visibility: hidden;
 }
+/* .slick-slide {
+  width: 200px !important;
+} */
+
+img.slider-imag {
+  box-shadow: rgba(23, 55, 217, 0.782) 0px 3px 8px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.cat-heading {
+  text-align: center;
+  padding: 10px;
+}
 
 
 @media screen and (max-width: 600px) {
 
   .MuiBox-root.css-gf3blb{
     visibility: visible;
+  }
+  .cat-heading {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
   }
 }
 

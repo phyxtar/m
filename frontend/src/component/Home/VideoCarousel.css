@@ -12,7 +12,7 @@
   height: 300px;
 } */
 
-.carousel .carousel-control-prev-icon {
+/* .carousel .carousel-control-prev-icon {
   visibility: hidden;
 }
 .carousel:hover .carousel-control-prev-icon {
@@ -24,7 +24,7 @@
 }
 .carousel:hover .carousel-control-next-icon {
   visibility: visible;
-}
+} */
 @media screen and (max-width: 600px) {
   .reelcra {
     width:356px;
